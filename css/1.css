@@ -31,7 +31,7 @@ html,body{
     padding-top: 70px;
     box-sizing: border-box;
     font-family: Airport;
-    text-shadow: 2px 2px 4px #FFAE00 2px 2px 15px #1435AD;
+    text-shadow: 2px 2px 4px #FFAE00, 2px 2px 15px #1435AD;
     transform: rotate(-15deg);
 }
 h1 {
@@ -44,7 +44,7 @@ h1 {
 .content{
     grid-column: 2/4;
     border-radius: 10px;
-    border: 2px solid brown;
+    border: 2px solid #708090;
     margin-right: 20px;
     padding: 10px;
     box-sizing: border-box;
@@ -56,7 +56,7 @@ h1 {
 }
 .menu-item{
     height: 50px;
-    border: solid orange 2px;
+    border: solid #708090 2px;
     margin: 10px auto 0;
     width: 80%;
     box-sizing: border-box;
@@ -65,7 +65,14 @@ h1 {
     text-align: center;
     border-radius: 10px;
     font-family: menu-font;
-    background: radial-gradient(#008B8B #2F4F4F);
+    background: radial-gradient(#008B8B, #2F4F4F);
+}
+.author-signature {
+    bottom: 10px;    
+    left: 10px;      
+    font-size: 11px;
+    color: gray;
+    font-family: "Times New Roman", Times, serif;
 }
 @media screen and (max-width: 768px){
     .container{
